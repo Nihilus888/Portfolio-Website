@@ -10,6 +10,26 @@ p {
     margin: 0;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* COMMON */
+.p-flex {
+    display: flex;
+}
+
+.p-flex-align-center{
+    align-items: center;
+}
+
+.p-flex-justify-sb {
+    justify-content: space-between;
+}
+
+
+/* WRAPPER CLASS */
 .p-wrapper{
     position: relative;
 }
@@ -21,4 +41,21 @@ p {
     width: 25vw;
     position: absolute;
     z-index: -1;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    padding: 0 40px;
+}
+
+header ul li:first-child {
+    padding-left: 0;
+}
+
+header ul li:last-child {
+    padding-right: 0;
 }
