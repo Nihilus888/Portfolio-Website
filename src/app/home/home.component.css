@@ -6,3 +6,26 @@
     background-position: bottom;
     background-repeat: no-repeat;
 }
+
+.intro {
+    margin-bottom: 30px; 
+ }
+
+ .swe-projects {
+     color: grey;
+     font-weight: bold;
+     text-decoration: underline;
+ }
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin: 10px;
+  }
+  .grid-item {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 30px;
+  }
