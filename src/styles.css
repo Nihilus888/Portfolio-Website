@@ -15,12 +15,16 @@ ul {
     padding: 0;
 }
 
-a {
+a, a:hover {
     text-decoration: none;
     background-color: transparent;
 }
 
 /* COMMON */
+.p-cursor {
+    cursor: pointer;
+}
+
 .p-flex {
     display: flex;
 }
