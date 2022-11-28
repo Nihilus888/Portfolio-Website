@@ -47,7 +47,7 @@ a, a:hover {
 .p-wrapper::before {
     content: '';
     background: #f9b205;
-    height: 175vh; 
+    height: 170vh; 
     width: 25vw;
     position: absolute;
     z-index: -1;
