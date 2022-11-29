@@ -12,7 +12,7 @@
 }
 
 .swe-projects {
-  color: grey;
+  color: black;
   font-weight: bold;
   text-decoration: underline;
   margin-top: 30px;
@@ -60,6 +60,8 @@
 
 .card:hover p {
   color: var(--text-color-hover);
+  background: var(--bg-color);
+
 }
 
 .card:active {
