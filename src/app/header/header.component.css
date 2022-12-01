@@ -23,4 +23,5 @@ header ul li a.is-active::after {
   transition-duration: 2s;
   transition-timing-function: linear;
   transition-delay: 1s;
+  transition: all 0.5s ease-out;
 }
